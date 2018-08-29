@@ -16,7 +16,11 @@ function pressIt(){
   })
 }
 function submitIt(){
-  $("form").on("submit)
+  $("form").on("submit",function (){
+    if ($("input:first" ).val()==="correct"){
+      w
+    }
+  })
 }
 $(document).ready(function(){
 getit()
